@@ -79,6 +79,7 @@ body {
   color: #ffffff;
 }
 .title-btn {
+  font-family: inherit
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -201,6 +202,7 @@ body {
 
 /* Портфолио*/
 .portfolio-btm-maine {
+  font-family: inherit
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
