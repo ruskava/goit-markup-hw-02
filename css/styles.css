@@ -16,7 +16,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -28,11 +28,9 @@ body {
 }
 
 .link.list-name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -50,11 +48,9 @@ body {
 }
 
 .link.list-info {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -74,22 +70,18 @@ body {
   background: #2f303a;
 }
 .title-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.364;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 .title-btn {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -111,30 +103,24 @@ body {
 /* Миссия компании*/
 
 .about-company {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 .text-about-company {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .engaged-company {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.167;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -143,31 +129,25 @@ body {
   background: #f5f4fa;
 }
 .company-team-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.167;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .company-member {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1875;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .company-position {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.1875;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -182,7 +162,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .web-color-footer {
@@ -192,20 +172,16 @@ body {
   color: #ffffff;
 }
 .link.link-adress {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .link.link-info-footer {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -225,11 +201,9 @@ body {
 
 /* Портфолио*/
 .portfolio-btm-maine {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   background: #2196f3;
@@ -246,11 +220,9 @@ body {
 }
 .portfolio-btm {
   cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -264,8 +236,6 @@ body {
   color: #ffffff;
 }
 .portfolio-list {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -273,11 +243,9 @@ body {
   color: #212121;
 }
 .portfolio-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
 }
