@@ -12,7 +12,7 @@ body {
 /* Хедер */
 
 .link.link-web {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -159,7 +159,7 @@ body {
   background: #2f303a;
 }
 .link.link-footer {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
