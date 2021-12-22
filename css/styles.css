@@ -1,6 +1,19 @@
+/* =====styles======*/
+:root {
+  --maim-color: #212121;
+  --alt-color: #2196f3;
+  --heder-color: #ffffff;
+  --description-color: #757575;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--heder-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
 }
 
 .list {
@@ -9,245 +22,167 @@ body {
 .link {
   text-decoration: none;
 }
-/* Хедер */
+[hidden] {
+  display: none;
+}
+/* ================Хедер===================== */
 
-.link.link-web {
+.logo {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--alt-color);
 }
-
-.web-color {
-  color: #2196f3;
+.curent-black {
+  color: var(--maim-color);
 }
-.studio-color {
-  color: #000000;
-}
-
-.link.list-name {
+.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--maim-color);
 }
-.studia-title {
-  color: #2196f3;
-}
-.link.list-name:hover {
-  color: #2196f3;
-}
-.link.list-name:focus {
-  color: #2196f3;
-}
-.link.list-name:active {
-  color: #2196f3;
+.curent-blue-link {
+  color: var(--alt-color);
 }
 
-.link.list-info {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: var(--alt-color);
 }
-.link.list-info:hover {
-  color: #2196f3;
+.contact-link {
+  color: var(--description-color);
 }
-.link.list-info:focus {
-  color: #2196f3;
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--alt-color);
 }
 
-/* Герой ВебСтудия */
-.title {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+/* ============= Герой ВебСтудия =============*/
+.hero {
   background: #2f303a;
 }
-.title-text {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--heder-color);
 }
-.title-btn {
-  font-family: inherit
-  font-weight: bold;
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--heder-color);
+  background-color: var(--alt-color);
   cursor: pointer;
 }
-.title-btn {
-  margin: auto;
-  display: block;
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--description-color);
 }
-.title-btn:hover {
-  color: #a29d9f;
-}
-.title-btn:focus {
-  color: #a29d9f;
-}
-/* Миссия компании*/
+/* ============= Миссия компании==================*/
 
-.about-company {
-  font-weight: bold;
+.about-item-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--maim-color);
 }
-.text-about-company {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.engaged-company {
-  font-weight: bold;
+
+.section-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--maim-color);
 }
-.company-team {
+.team {
   background: #f5f4fa;
 }
-.company-team-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.company-member {
+
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--maim-color);
 }
-.company-position {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
+.team-position {
+  color: var(--description-color);
 }
-/* Футер*/
+/*================ Футер========================*/
 
-.footer-title {
+.footer {
   background: #2f303a;
 }
-.link.link-footer {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.curent-white {
+  color: var(--heder-color);
 }
-.web-color-footer {
-  color: #2196f3;
-}
-.Studio-color-footer {
-  color: #ffffff;
-}
-.link.link-adress {
-  font-weight: normal;
+.footer-adress {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--heder-color);
 }
-.link.link-info-footer {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.link-footer {
   color: rgba(255, 255, 255, 0.6);
 }
-.link.link-adress:hover {
-  color: #2196f3;
+.footer-adress:hover,
+.footer-adress:hover {
+  color: var(--alt-color);
 }
-.link.link-adress:focus {
-  color: #2196f3;
-}
-
-.link.link-info-footer:hover {
-  color: #2196f3;
-}
-.link.link-info-footer:focus {
-  color: #2196f3;
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--alt-color);
 }
 
-/* Портфолио*/
-.portfolio-btm-maine {
-  font-family: inherit
+/*============ Портфолио==================*/
+.filter-btm-active {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
   letter-spacing: 0.03em;
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--alt-color);
+  color: var(--heder-color);
   cursor: pointer;
 }
-.portfolio-btm-maine:hover {
-  background: #2196f3;
-  color: #ffffff;
+.filter-btm-active:hover,
+.filter-btm-active:focus {
+  background: var(--alt-color);
+  color: var(--heder-color);
 }
-.portfolio-btm-maine:focus {
-  background: #2196f3;
-  color: #ffffff;
+.filter-btm {
+  background: var(--heder-color);
+  color: var(--maim-color);
 }
-.portfolio-btm {
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.filter-btm:hover,
+.filter-btm:focus {
+  background: var(--alt-color);
+  color: var(--heder-color);
 }
-.portfolio-btm:hover {
-  background: #2196f3;
-  color: #ffffff;
-}
-.portfolio-btm:focus {
-  background: #2196f3;
-  color: #ffffff;
-}
-.portfolio-list {
-  font-weight: bold;
+
+.portfolio-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--maim-color);
 }
 .portfolio-text {
-  font-weight: normal;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-color);
 }
